@@ -8,7 +8,7 @@
 
 ```bash
 # 安装nest.js
-npm i -g @nestjs/cli
+yarn  @nestjs/cli
 # 创建一个项目
 nest new next-demo
 ```
@@ -39,7 +39,8 @@ src
 ### 运行hello world
 
 ```bash
-npm run start
+yarn install
+yarn run start
 ```
 
 `http://localhost:3000/`。 你应该看到 `Hello world!` 信息。
@@ -48,7 +49,7 @@ npm run start
 
 ```bash
 git clone  项目地址
-npm run start
+yarn run start
 http://localhost:3000/
 ```
 
